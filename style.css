@@ -1,0 +1,183 @@
+/*
+Theme Name:     Explorable child
+Theme URI:      http://example.com/
+Description:    Child theme for the Explorable theme
+Author:         Thorsten Hake
+Author URI:     http://example.com/about/
+Template:       Explorable
+Version:        0.0.1
+*/
+@import url("../Explorable/style.css");
+
+/* Hide filter bar */
+#filter-bar{
+	display: none;
+}
+
+@media only screen and (min-height: 600px) {
+	#et-slider-wrapper {
+		top: 100px;
+	}
+	
+	#et-slider-wrapper .et-description {
+		top: 74px;
+	}
+	
+	#et-slider-wrapper .viewport {
+		height: 190px;
+	}
+}
+
+@media only screen and (min-height: 700px) {
+	#et-slider-wrapper {
+		top: 100px;
+	}
+	
+	#et-slider-wrapper .et-description {
+		top: 74px;
+	}
+	
+	#et-slider-wrapper .viewport {
+		height: 250px;
+	}
+}
+
+@media only screen and (min-height: 768px) {
+	#et-slider-wrapper {
+		top: 100px;
+	}
+	
+	#et-slider-wrapper .et-description {
+		top: 74px;
+	}
+	
+	#et-slider-wrapper .viewport {
+		height: 320px;
+	}
+}
+
+@media only screen and (min-height: 800px) {
+	#et-slider-wrapper {
+		top: 100px;
+	}
+	
+	#et-slider-wrapper .et-description {
+		top: 74px;
+	}
+	
+	#et-slider-wrapper .viewport {
+		height: 330px;
+	}
+}
+
+@media only screen and (min-height: 980px) {
+	#et-slider-wrapper {
+		top: 100px;
+	}
+	
+	#et-slider-wrapper .et-description {
+		top: 74px;
+	}
+	
+	#et-slider-wrapper .viewport {
+		height: 450px;
+	}
+}
+
+@media only screen and (min-width: 1024px ) {
+	#et-slider-wrapper {
+		width: 400px;
+	}
+	
+	#et-slider-wrapper .viewport {
+		width: 332px;
+	}
+	
+	#et-slider-wrapper:after {
+		width: 394px;
+	}
+}
+
+@media only screen and (min-width: 1280px ) {
+	#et-slider-wrapper {
+		width: 500px;
+	}
+	
+	#et-slider-wrapper .viewport {
+		width: 432px;
+	}
+	
+	#et-slider-wrapper:after {
+		width: 494px;
+	}
+}
+
+@media only screen and (min-width: 1366px ) {
+	#et-slider-wrapper {
+		width: 550px;
+	}
+	
+	#et-slider-wrapper .viewport {
+		width: 582px;
+	}
+	
+	#et-slider-wrapper:after {
+		width: 544px;
+	}
+}
+
+@media only screen and (min-width: 1440px ) {
+	#et-slider-wrapper {
+		width: 590px;
+	}
+	
+	#et-slider-wrapper .viewport {
+		width: 522px;
+	}
+	
+	#et-slider-wrapper:after {
+		width: 584px;
+	}
+}
+
+#et-slider-wrapper .thumbnail img {
+	width: 100%;
+}
+
+#et_main_map {
+	margin-top: 0;
+}
+
+#et-single-map {
+	height: 40%;
+}
+body.et_map_full_screen #main-header{
+    position:relative;
+}
+
+/* Needed for correct german rotation*/
+html:lang(de) #et-list-view .et-date{
+    left: -102px;
+}
+.etc_next_post_map{
+    text-align:right;
+    float: right;
+    padding-right: 5px;
+}
+.etc_previous_post_map{
+    text-align:left;
+    float: left;
+    padding-left: 5px;
+}
+.etc_location_header{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+#et-slider-wrapper:before { 
+    border-right: 0px;
+    border-left: 0px; 
+}
+.et-place-main-text {
+    padding-left: 20px;
+}
