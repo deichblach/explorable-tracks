@@ -58,20 +58,15 @@
                 
 
                 <div class="et-place-content">
-                    <div class="et-place-text-wrapper">
-                        <div class="et-place-main-text">
-                            <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
-                            <div class="viewport">
-                                <div class="overview">
+                    <div class="et-place-text-wrapper">                                  
+               
     <?php
     if (has_excerpt())
         the_excerpt();
     else
         the_content('');
-    ?>
-                                </div>
-                            </div>
-                        </div> <!-- .et-place-main-text -->
+    ?>                       
+                      
                     </div> <!-- .et-place-text-wrapper -->
                     <a class="more" href="<?php the_permalink(); ?>"><?php esc_html_e('More Information', 'Explorable'); ?><span>&raquo;</span></a>
                 </div> <!-- .et-place-content -->

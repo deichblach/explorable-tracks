@@ -75,5 +75,11 @@ endwhile;
 ?>
     </div> <!-- #et-map-slides -->
 </div> <!-- .et-map-post -->
-  <div class="cartodb-legend-stack" style="display: block;"><div class="cartodb-legend custom" style="display: block; right: 0px;bottom: 0px;position: relative; margin: 0;"><div class="custom-legend"><ul><li><div class="bullet" style="background:#d43838"></div>Fahrrad</li><li><div class="bullet" style="background:#5fd45f"></div>Auto / Zug</li><li><div class="bullet" style="background:#54aadd"></div>Flugzeug</li></ul></div></div></div>
 
+<div class="cartodb-legend-stack" style="display: block;"><div class="cartodb-legend custom" style="display: block; right: 0px;bottom: 0px;position: relative; margin: 0;"><div class="custom-legend"><ul><li><div class="bullet" style="background:#d43838"></div>Fahrrad</li><li><div class="bullet" style="background:#5fd45f"></div>Auto / Zug</li><li><div class="bullet" style="background:#54aadd"></div>Flugzeug</li></ul></div></div></div>
+<div id="et-slider-shadow-top">
+    <div id="shadow-top"></div>
+</div>
+<div id="et-slider-shadow-bottom">
+    <div id="shadow-bottom"></div>
+</div>

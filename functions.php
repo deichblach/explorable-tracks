@@ -152,6 +152,9 @@ function etc_enqueue_carto_scripts() {
         wp_enqueue_script('explorable', get_stylesheet_directory_uri().'/js/explorable.js', array('gvector'));
         wp_enqueue_script('explorableChild', get_stylesheet_directory_uri().'/js/explorableChild.js', array('explorable','mercator'));
         wp_enqueue_script('jquery-history', get_stylesheet_directory_uri().'/js/jquery.history.js', array('jquery'));
+        wp_enqueue_style('mCustomScrollbar',get_stylesheet_directory_uri().'/js/jquery.mCustomScrollbar.css',null,'2.8.2');
+        wp_enqueue_script('mCustomScrollbar',  get_stylesheet_directory_uri().'/js/jquery.mCustomScrollbar.concat.min.js', array('jquery'),'2.8.2',true);
+        
         
     }
 }
